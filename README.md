@@ -64,7 +64,7 @@ node server.js
 5. You can then navigate to [http://localhost:8080/](http://localhost:8080/) in your browser of choice
 
 #### Online
-All that being said, you can find the deployed application on Heroku. [Buy the Book](https://buy-the-book.herokuapp.com/) online and save yourself some time and effort!
+All that being said, you can find the deployed application on Heroku. [Buy the Book](https://mysterious-refuge-71478.herokuapp.com/) online and save yourself some time and effort!
 
 
 

@@ -1,4 +1,4 @@
-USE bookstore_db;
+USE ptjdy8jpzmyjmek2;
 
 -- Insert Books into Book Table
 INSERT INTO Author(firstName,lastName,createdAt,updatedAt) 
