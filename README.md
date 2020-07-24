@@ -26,7 +26,7 @@ What better way to pass this time, than by diving into a Book? As Nora Ephron sa
 
 ## Take a Look
 
-:books: [Buy the Book!](https://buy-the-book.herokuapp.com/)
+:books: [Buy the Book!](https://mysterious-refuge-71478.herokuapp.com/)
 
 ![Home Page](./public/assets/img/Buy_the_Book.gif)
 

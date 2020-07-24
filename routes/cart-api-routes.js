@@ -32,4 +32,16 @@ module.exports = function (app) {
   app.delete("/api/cart/delete", async () => {
     await db.Cart.destroy({ where: {}, truncate: false });
   });
+
+  app.delete("/api/cart/:id", async (req, res) => {
+    var condition = "id = " + req.params.id;
+    await db.Cart.destroy(condition, function(result) {
+      if (result.changedRows === 0) {
+        return res.status(404).end();
+      }
+      else {
+        res.status(200).end();
+      }
+    });   
+  });
 };

@@ -24,4 +24,13 @@ $(document).ready(function () {
     });
   });
 
-});
+  $(".delete-button").on("click", function(e) {
+    e.preventDefault();
+
+    var id = $(this).data("id");
+    $.ajax({
+      type: "DELETE",
+      url: "/api/cart/" + id
+    }).then(location.reload());
+  });
+})
