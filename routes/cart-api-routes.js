@@ -38,10 +38,9 @@ module.exports = function (app) {
     await db.Cart.destroy(condition, function(result) {
       if (result.changedRows === 0) {
         return res.status(404).end();
-      }
-      else {
+      } else {
         res.status(200).end();
       }
-    });   
+    });
   });
 };

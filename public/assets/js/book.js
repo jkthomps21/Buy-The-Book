@@ -33,4 +33,4 @@ $(document).ready(function () {
       url: "/api/cart/" + id
     }).then(location.reload());
   });
-})
+});
