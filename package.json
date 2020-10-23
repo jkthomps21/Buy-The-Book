@@ -1,5 +1,5 @@
 {
-  "name": "mvc_project2",
+  "name": "buy-the-book",
   "version": "1.0.0",
   "description": "A Bookstore to buy books",
   "main": "server.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karpagasathya/MVC_Project2.git"
+    "url": "git+https://github.com/jkthomps21/Buy-The-Book.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/karpagasathya/MVC_Project2/issues"
+    "url": "https://github.com/jkthomps21/Buy-The-Book/issues"
   },
-  "homepage": "https://github.com/karpagasathya/MVC_Project2#readme",
+  "homepage": "https://github.com/jkthomps21/Buy-The-Book#readme",
   "dependencies": {
     "@handlebars/allow-prototype-access": "^1.0.3",
     "accounting": "^0.4.1",
